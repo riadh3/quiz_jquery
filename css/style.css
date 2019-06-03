@@ -1,0 +1,114 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.hidden{
+    display: none;
+}
+.main-container .item{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: fixed;
+}
+.main-container .item.panel-one{
+    display: block
+}
+.main-container .wrapper{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 480px
+}
+.main-container .start-quiz{
+    border: 1px solid #cccccc;
+    padding: 10px 20px;
+    border-radius: 40px;
+    color: #9a9a9a;
+    cursor: pointer;
+    width: 150px
+}
+.start-quiz.started{
+    background: #3f51b5;
+    color: #fff
+}
+.error{
+    position: fixed;
+    bottom: 15px;
+    width: 100%;
+    color: #f44334;
+    font-weight: bold;
+    text-align: center;
+    display: none
+}
+.progress{
+    position: fixed;
+    bottom: 0;
+    background: #d0d0d0;
+    width: 100%;
+}
+.bar{
+    width: 0;
+    /* width: 27%; */
+    background: #00bcd9;
+    height: 10px;
+}
+
+.panel-two .wrapper,
+.panel-tree .wrapper,
+.panel-four .wrapper,
+.panel-five .wrapper
+.panel-six .wrapper{
+    display: none;
+}
+
+.options{
+    height: 200px;
+}
+.options div{
+    margin-bottom: 15px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #3f51b5;
+    transition: all 0.2s ease;
+    /* we have to hide this elms to be abale */
+    /* ....to animate it later */
+    display: none;
+}
+.options div.active{
+    color: #007fff;
+    background: #313131
+}
+.next-question{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

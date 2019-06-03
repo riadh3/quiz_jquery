@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Roboto font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <!-- jquery ui css -->
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.theme.min.css">
+    <!-- bootstrap -->
+    <!-- <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+    <!-- my style -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Quiz</title>
+</head>
+<body>
+   
+    
+<div class="main-container">
+
+    <!-- panel 0 -->
+    <div class="item panel-one hidden" data-panel="0">
+        <div class="wrapper">
+            <h1 class="hidden">Quizzer</h1>
+            <button class="start-quiz">Start Quiz</button>
+        </div>
+    </div>
+
+
+    <!-- panel 1 -->
+    <div class="item panel-two hidden" data-panel="1">
+        <div class="wrapper">
+            <h3>The jQuery html() method works for both HTML and XML documents ?</h3>
+            <div class="options">
+                <div>True</div>
+                <div>False</div>
+                <div>I don't know</div>
+            </div>
+            <div class="next-question" data-next="2">Next Question</div>
+        </div>
+    </div>
+
+    <!-- panel 2 -->
+
+    <div class="item panel-three hidden" data-panel="2">
+        <div class="wrapper">
+            <h3>What is Babel?</h3>
+            <div class="options">
+                <div>A transpiler</div>
+                <div> A Compiler</div>
+                <div> Both Compiler and Transpilar</div>
+                <div>I don't know</div>
+            </div>
+            <div class="next-question" data-next="3">Next Question</div>
+        </div>
+    </div>
+
+    <!-- panel3 -->
+    <div class="item panel-four hidden" data-panel="3">
+        <div class="wrapper">
+            <h3>What does the "webpack" command do?</h3>
+            <div class="options">
+                <div>Transpiles all the Javascript down into one file</div>
+                <div> Runs react local development server</div>
+                <div> A module bundler</div>
+                <div>I don't know</div>
+            </div>
+            <div class="next-question" data-next="4">Next Question</div>
+        </div>
+    </div>
+
+    <!-- panel 4 -->
+    <div class="item panel-five hidden" data-panel="4">
+        <div class="wrapper">
+            <h3>What is ReactJS?</h3>
+            <div class="options">
+                <div> Server side Framework</div>
+                <div> User-interface framework</div>
+                <div>  A Library for building interaction interfaces</div>
+                <div>I don't know</div>
+            </div>
+            <div class="next-question" data-next="5">Next Question</div>
+        </div>
+    </div>
+
+      <!-- panel 5 -->
+      <div class="item panel-six hidden" data-panel="5">
+        <div class="wrapper">
+            <h3>Thank you for participating</h3>
+        </div>
+    </div>
+
+</div>
+
+<div class="error">
+    Please make a selection
+</div>
+<div class="progress">
+    <div class="bar"></div>
+</div>
+
+    <!-- <div class="alert alert-danger" role="alert"> -->
+        <!-- This is a danger alert—check it out! -->
+      <!-- </div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/jquery-3.4.1.min.js"></script> 
+  <script src="js/jquery-ui.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
